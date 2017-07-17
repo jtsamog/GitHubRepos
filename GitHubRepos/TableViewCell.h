@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface TableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *labelCell;
+@property (weak, nonatomic) IBOutlet UILabel *repoIDLabel;
+@property (weak, nonatomic) IBOutlet UILabel *repoDescriptionLabel;
+@property (weak, nonatomic) IBOutlet UILabel *repoURLLabel;
 
 @end

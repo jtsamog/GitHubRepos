@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		300D4F441F1D6159008FF74C /* Repo.m in Sources */ = {isa = PBXBuildFile; fileRef = 300D4F431F1D6159008FF74C /* Repo.m */; };
 		30224D711F1D46C400F7DA4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30224D701F1D46C400F7DA4C /* main.m */; };
 		30224D741F1D46C400F7DA4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30224D731F1D46C400F7DA4C /* AppDelegate.m */; };
 		30224D771F1D46C400F7DA4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30224D761F1D46C400F7DA4C /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		300D4F421F1D6159008FF74C /* Repo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repo.h; sourceTree = "<group>"; };
+		300D4F431F1D6159008FF74C /* Repo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repo.m; sourceTree = "<group>"; };
 		30224D6C1F1D46C400F7DA4C /* GitHubRepos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubRepos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30224D701F1D46C400F7DA4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30224D721F1D46C400F7DA4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,10 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				30224D781F1D46C400F7DA4C /* Main.storyboard */,
-				30224D751F1D46C400F7DA4C /* ViewController.h */,
-				30224D761F1D46C400F7DA4C /* ViewController.m */,
 				30224D861F1D4B3500F7DA4C /* TableViewCell.h */,
 				30224D871F1D4B3500F7DA4C /* TableViewCell.m */,
+				30224D751F1D46C400F7DA4C /* ViewController.h */,
+				30224D761F1D46C400F7DA4C /* ViewController.m */,
+				300D4F421F1D6159008FF74C /* Repo.h */,
+				300D4F431F1D6159008FF74C /* Repo.m */,
 				30224D6F1F1D46C400F7DA4C /* Supporting Files */,
 			);
 			path = GitHubRepos;
@@ -156,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				300D4F441F1D6159008FF74C /* Repo.m in Sources */,
 				30224D771F1D46C400F7DA4C /* ViewController.m in Sources */,
 				30224D881F1D4B3500F7DA4C /* TableViewCell.m in Sources */,
 				30224D741F1D46C400F7DA4C /* AppDelegate.m in Sources */,
@@ -320,6 +326,7 @@
 				30224D851F1D46C400F7DA4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
